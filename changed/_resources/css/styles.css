@@ -8094,7 +8094,7 @@ section.jumbotron-hero {
 }
 
 .jumbotron.jumbotron-attend {
-    background-image: url(../img/bg_attend.jpg);
+    background-image: url(../img/webp/bg_attend.webp);
     background-position: center top
 }
 
@@ -8969,7 +8969,7 @@ span.twitter-typeahead {
 }
 
 .jumbotron-map {
-    background-image: url(../img/bg_map.jpg)
+    background-image: url(../img/webp/bg_map.webp)
 }
 
 .jumbotron-map .panel.panel-default {
