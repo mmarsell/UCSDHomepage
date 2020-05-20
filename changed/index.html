@@ -159,7 +159,8 @@ img {
 </style>
 <!-- Site-specific CSS files -->
 
-  <link rel="stylesheet" href="./_resources/css/vendor/brix_sans.min.css" type="text/css"/>
+  <link rel="preload" as="style" href="./_resources/css/vendor/brix_sans.min.css" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="./_resources/css/vendor/brix_sans.min.css"></noscript>
   
   <!-- CSS complied from style overrides -->
   <link href="./_resources/css/styles.css" rel="stylesheet"/>
