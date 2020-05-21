@@ -1,8 +1,8 @@
 const critical = require('critical');
 critical.generate({
     base: './',
-    src: 'index-critical.html',
-    dest: 'index-critical.html',
+    src: 'index.html',
+    dest: 'index.html',
     inline: true,
     width: 1300,
     height: 900
